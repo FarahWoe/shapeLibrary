@@ -1,0 +1,8 @@
+Interfaces
+
+Class can include multiple interfaces, C# doesn't support inheritance of multiple classes.
+
+Interface members are public by default.
+When a class implements an interface, the class must provude an implementation for all the members.
+
+Interfaces can inherit from one or more interfaces. The derived interface inherits the members from its base interfaces. A class that implements a derived interface must implement all members in the derived interface, including all members of the derived interface's base interfaces.
