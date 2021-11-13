@@ -13,5 +13,21 @@ namespace Bif3.Swe1.Oop.Polymorphism.AbstractBaseClass
             this._brennpkt1 = brennpkt1;
             this._brennpkt2 = brennpkt2;
             }
+
+        public override void PrintShapeType()
+        {
+            //throw new NotImplementedException();
+        }
+
+        public override double GetArea()
+        {
+            return 5.0;
+        }
+
+        public override double GetPerimeter()
+        {
+            return 9.3;
+        }
+
     }
 }
